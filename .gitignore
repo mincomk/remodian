@@ -80,3 +80,5 @@ dkms.conf
 .clang_complete
 .gcc-flags.json
 .pio
+
+compile_commands.json

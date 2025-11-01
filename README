@@ -1,0 +1,6 @@
+  Remodian
+============
+
+Remodian (Remote Meridian) is a simple clone of a IR remote controller in Meridian 7000 audio system.
+
+PlatformIO and `just` are the dependencies. Refer `justfile` to understand the building procedure.
