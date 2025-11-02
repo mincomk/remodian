@@ -12,7 +12,7 @@ export type ButtonProps = {
 
 export function Button(props: ButtonProps) {
     const longPressDelay = props.longPressDelay ?? 400;
-    const repeatInterval = props.repeatInterval ?? 80;
+    const repeatInterval = props.repeatInterval ?? 250;
 
     const [clicking, setClicking] = useState(false);
     const timerRef = useRef<number | null>(null);

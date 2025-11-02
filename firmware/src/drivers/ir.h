@@ -11,6 +11,6 @@ class RC5IRDriver {
 
   private:
     uint8_t address;
-    uint8_t toggle = 0;
+    bool toggle = false;
     IRsend irsend;
 };
