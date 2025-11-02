@@ -1,0 +1,25 @@
+Protocol  : RC5
+Code      : 0xCCC (12 Bits)
+
+uint16_t rawData[21] = {904, 900,  882, 902,  884, 902,  1738, 920,  858, 1820,  858, 926,  1740, 918,  860, 1832,  860, 924,  1764, 894,  884};  // RC5 CCC
+uint32_t address = 0x13;
+uint32_t command = 0xC;
+uint64_t data = 0xCCC;
+
+
+Protocol  : RC5
+Code      : 0xCCC (12 Bits)
+
+uint16_t rawData[21] = {878, 924,  886, 900,  884, 900,  1764, 896,  884, 1810,  882, 898,  1740, 920,  860, 1832,  858, 924,  1740, 920,  884};  // RC5 CCC
+uint32_t address = 0x13;
+uint32_t command = 0xC;
+uint64_t data = 0xCCC;
+
+
+Protocol  : RC5
+Code      : 0xCCC (12 Bits)
+
+uint16_t rawData[21] = {908, 898,  858, 926,  884, 900,  1738, 922,  858, 1832,  858, 924,  1766, 896,  858, 1832,  858, 926,  1764, 894,  860};  // RC5 CCC
+uint32_t address = 0x13;
+uint32_t command = 0xC;
+uint64_t data = 0xCCC;

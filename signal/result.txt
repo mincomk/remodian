@@ -1,0 +1,9 @@
+==== Common ====
+Address = 0x13
+
+=== Commands ===
+volUp:      0x10
+volDown:    0x11
+CD on:      0x6B
+Off:        0x0C
+Mute:       0x0D

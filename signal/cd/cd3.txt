@@ -1,0 +1,25 @@
+Protocol  : RC5X
+Code      : 0x14EB (13 Bits)
+
+uint16_t rawData[19] = {1784, 896,  860, 1832,  1740, 920,  888, 1804,  886, 898,  882, 900,  1742, 1828,  1738, 1830,  858, 922,  884};  // RC5X 14EB
+uint32_t address = 0x13;
+uint32_t command = 0x6B;
+uint64_t data = 0x14EB;
+
+
+Protocol  : RC5X
+Code      : 0x14EB (13 Bits)
+
+uint16_t rawData[19] = {1760, 920,  876, 1816,  1764, 898,  860, 1830,  884, 902,  858, 926,  1766, 1786,  1762, 1806,  884, 900,  858};  // RC5X 14EB
+uint32_t address = 0x13;
+uint32_t command = 0x6B;
+uint64_t data = 0x14EB;
+
+
+Protocol  : RC5X
+Code      : 0x14EB (13 Bits)
+
+uint16_t rawData[19] = {1786, 894,  886, 1792,  1740, 918,  884, 1812,  858, 924,  860, 924,  1766, 1802,  1764, 1804,  884, 900,  858};  // RC5X 14EB
+uint32_t address = 0x13;
+uint32_t command = 0x6B;
+uint64_t data = 0x14EB;
