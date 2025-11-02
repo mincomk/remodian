@@ -20,13 +20,13 @@ test:
     @echo "=== Running tests ==="
     pio test -e {{DEFAULT_ENV}}
 
-cdb:
+cc:
     @echo "=== Exporting compile_commands.json ==="
     pio run -t compiledb
 
 run:
     @echo "=== Build + Upload + Monitor ==="
-    just cdb
+    just cc
     just build
     just upload
     just monitor
