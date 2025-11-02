@@ -9,6 +9,14 @@
     --color-brand: #7338d9;
 }
 
+.title {
+    font-weight: 700;
+    background: #f20c6c;
+    background: linear-gradient(119deg, rgba(242, 12, 108, 1) 0%, rgba(134, 83, 237, 1) 100%);
+    color: transparent;
+    background-clip: text;
+}
+
 html,
 body,
 :root,
