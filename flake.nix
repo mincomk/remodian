@@ -33,7 +33,9 @@
 
             export CPATH=$XTENSA_HOME:$XTENSA_HOME/c++/8.4.0:$XTENSA_HOME/c++/8.4.0/xtensa-esp32-elf:$CPATH
 
+            cd firmware
             pio run -t compiledb
+            cd ..
 
             echo ""
             echo "🌈 Don't forget to pull before edit! 🌈"

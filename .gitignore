@@ -82,3 +82,6 @@ dkms.conf
 .pio
 
 compile_commands.json
+
+node_modules
+dist

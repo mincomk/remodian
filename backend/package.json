@@ -1,0 +1,30 @@
+{
+  "name": "remodian-backend",
+  "version": "1.0.0",
+  "description": "Meridian Remote Backend",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "minco",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.1",
+    "mqtt": "^5.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "@types/ws": "^8.18.1",
+    "nodemon": "^3.1.10",
+    "prettier": "3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
